@@ -1,0 +1,150 @@
+body{
+font-size: 16px;
+color: #482673;
+background-color: #daded4;
+font-family: 'Oxygen', sans-serif;
+}
+.container{
+  width: 100%;
+  
+}
+#header-nav{
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0px -1px 7px 2px #482673;
+   border-radius: 0;
+   border: 0;
+}
+.navbar-brand{
+    height: 90px;
+    padding-top: 30px;
+   
+}
+.navbar-brand h1{
+  color: #482673;
+  font-size: 1.9em;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+ 
+}
+
+#nav-list {
+  margin-top: 10px;
+  background: #283747;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+  
+}
+#nav-list li{
+  border: 1px solid #fff;
+}
+#nav-list a:hover {
+  background: #482673;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+} 
+.navbar-header button.navbar-toggle, .icon-bar{
+  border: 1px solid #482673;
+}
+.navbar-header button.navbar-toggle
+{
+  clear: both;
+  margin-top: -62px;
+}
+
+
+section p{
+ width: 100%;
+ padding: auto;
+}
+
+#content-title{
+  font-weight: bold;
+  padding: 1rem;
+}
+#main-content{
+  width: 97%;
+  margin: 0 auto;
+  background: #482673;
+  color: #fff;
+  box-shadow: 0px -1px 2px 1px rgb(145, 74, 74);
+  margin-bottom: 20px;
+}
+section h3{
+  font-weight: 600;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #main-content{
+    width: 95%;
+}
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #main-content{
+    width: 93%;
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  #main-content{
+    width: 90%;
+}
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 1.7em; 
+    
+  }
+#collapsable-nav a {
+    font-size: 1.1em;
+  }
+#content-title{
+  font-size: 1.7em;
+  font-weight: bold;
+}
+section h3{
+ 
+  font-size: 1.4em;
+}
+.navbar-toggler {
+  display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
